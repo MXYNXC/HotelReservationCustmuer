@@ -1,0 +1,10 @@
+
+server:
+  port: 8888
+spring:
+  application:
+    name: CHotelReservation
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://101.132.188.237:8080/LCloud/eureka/
